@@ -4560,8 +4560,6 @@ input::-ms-input-placeholder,
   height: 100%;
   width: 100%;
   border: none;
-  -webkit-filter: grayscale(100%);
-          filter: grayscale(100%);
   border-radius: 30px;
 }
 
@@ -11937,7 +11935,6 @@ a.ui-button:active,
 @media (max-width: 575px) {
   .cs_funfact.cs_style_1 {
     max-width: 100%;
-    padding: 15px 0;
   }
 }
 .cs_funfact.cs_style_1 .cs_funfact_number {
