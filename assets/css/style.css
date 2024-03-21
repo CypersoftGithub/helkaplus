@@ -11935,7 +11935,6 @@ a.ui-button:active,
 @media (max-width: 575px) {
   .cs_funfact.cs_style_1 {
     max-width: 100%;
-    padding: 15px 0;
   }
 }
 .cs_funfact.cs_style_1 .cs_funfact_number {
