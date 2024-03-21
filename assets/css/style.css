@@ -4560,8 +4560,6 @@ input::-ms-input-placeholder,
   height: 100%;
   width: 100%;
   border: none;
-  -webkit-filter: grayscale(100%);
-          filter: grayscale(100%);
   border-radius: 30px;
 }
 
