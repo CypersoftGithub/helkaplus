@@ -3003,8 +3003,6 @@ input::-ms-input-placeholder,
 }
 .cs_random_features .cs_random_features_col {
   padding-top: 55px;
-  height: 300px;
-  width: 350px;
 }
 @media (max-width: 1700px) {
   .cs_random_features .cs_random_features_col {
