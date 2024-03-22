@@ -3032,6 +3032,8 @@ input::-ms-input-placeholder,
     max-width: 390px;
   }
 }
+/*campaign*/
+
 
 .cs_feature.cs_style_1 {
   max-width: 420px;
@@ -8190,7 +8192,7 @@ a.ui-button:active,
 11. Hero
 ----------------------------------------------------------------*/
 .cs_hero.cs_style_1 {
-  height: 900px;
+  height: 1000px;
   /* padding-bottom: 110px; */
   position: relative;
 }
@@ -12055,4 +12057,4 @@ a.ui-button:active,
   position: absolute;
   left: 0;
   color: #307bc4;
-}/*# sourceMappingURL=style.css.map */
+}
