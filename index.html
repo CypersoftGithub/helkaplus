@@ -90,32 +90,35 @@
         <hr>
         <div class="cs_height_70 cs_height_lg_50"></div>
         <div class="col-lg-12">
+
+        <form method="POST" name="appoinment" action="https://script.google.com/macros/s/AKfycbw9dP31B70xXpLLMe_3JA3j_9C6xmokC_7h4sVQXvulgqP4c1wyw-sTp7UR3PjC8H2W/exec" id="appointment">
+
           <h2 class="cs_fs_40 cs_medium mb-0">Appoinment</h2>
           <div class="cs_height_42 cs_height_xl_25"></div>
-          <div class="row">
+          <div class="row" >
             <div class="col-lg-10">
               <label class="cs_input_label cs_heading_color">Name</label>
-              <input type="text" class="cs_form_field" placeholder="David John">
+              <input type="text" class="cs_form_field" name="Name" placeholder="David John" required>
               <div class="cs_height_42 cs_height_xl_25"></div>
             </div>
             <div class="col-lg-6">
               <label class="cs_input_label cs_heading_color">Phone Number</label>
-              <input type="text" class="cs_form_field" placeholder="+91 9876543210">
+              <input type="text" class="cs_form_field" name="Phone-Number" placeholder="+91 9876543210" required>
               <div class="cs_height_42 cs_height_xl_25"></div>
             </div>
             <div class="col-lg-12">
               <label class="cs_input_label cs_heading_color">Mail ID</label>
-              <input type="mail" class="cs_form_field" placeholder="abc@xyz.com">
+              <input type="mail" class="cs_form_field" name="MailID" placeholder="abc@xyz.com" required>
               <div class="cs_height_42 cs_height_xl_25"></div>
             </div>
             <div class="col-lg-12">
               <label class="cs_input_label cs_heading_color">Address</label>
-              <input type="text" class="cs_form_field" placeholder="address">
+              <input type="text" class="cs_form_field" name="Address" placeholder="address" required>
               <div class="cs_height_42 cs_height_xl_25"></div>
             </div>
             <div class="col-lg-12">
               <div class="cs_height_18"></div>
-              <button class="cs_btn cs_style_1">
+              <button class="cs_btn cs_style_1" type="submit" value="submit" id="submit">
                 <span>Submit</span>
                 <i>
                   <img src="assets/img/icons/arrow_white.svg" alt="Icon">
@@ -125,6 +128,8 @@
             </div>
           </div>
         </div>
+        </form>
+
         <div class="cs_height_70 cs_height_lg_50"></div>
         <hr>
         <div class="cs_height_70 cs_height_lg_50"></div>
@@ -951,6 +956,7 @@
     <script src="assets/js/plugins/gsap.min.js"></script>
     <script src="assets/js/plugins/animated-headline.js"></script>
     <script src="assets/js/main.js"></script>
+    <script src="assets/js/plugins/form.js"></script>
   </body>
 
 </html>
