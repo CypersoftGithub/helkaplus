@@ -32,6 +32,7 @@
 1. Typography
 ----------------------------------------------------------------*/
 @import url("https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600;700&amp;family=Poppins:wght@400;500;600;700&amp;display=swap");
+
 body,
 html {
   color: rgba(39, 71, 96, 0.52);
@@ -6192,7 +6193,15 @@ a.ui-button:active,
 }
 
 .cs_video_popup_align {
-  overflow: hidden;
+  display: inline-block;
+  position: relative;
+  text-align: left;
+  background: #fff;
+  max-width: 1380px;
+  width: 100%;
+  max-height: 1000px;
+  height: 100%;
+  vertical-align: middle;
 }
 
 /*End Video Popup*/
