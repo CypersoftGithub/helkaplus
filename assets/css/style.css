@@ -66,16 +66,16 @@ h6 {
   margin: 0 0 20px 0;
   font-weight: 700;
   line-height: 1.2em;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: mediumFont;
 }
 
 .cs_primary_font,
 .cs_btn {
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: mediumFont;
 }
 
 .cs_secondary_font {
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: mediumFont;
 }
 
 h1 {
